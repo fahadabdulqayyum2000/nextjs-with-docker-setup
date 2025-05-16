@@ -1,0 +1,43 @@
+{
+  "name": "Next.js TypeScript Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// {
+//   "name": "Next.js Dev Container",
+//   "dockerFile": "Dockerfile",
+//   "context": "..",
+//   "appPort": [3000],
+//   "forwardPorts": [3000],
+//   "settings": {
+//     "terminal.integrated.defaultProfile.linux": "bash"
+//   },
+//   "extensions": [
+//     "dbaeumer.vscode-eslint",
+//     "esbenp.prettier-vscode",
+//     "ms-vscode.vscode-typescript-tslint-plugin"
+//   ],
+//   "postCreateCommand": "npm install",
+//   "remoteUser": "node"
+// }
